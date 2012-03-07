@@ -13,3 +13,10 @@ Hello Dave
 Hello Sue
 Hello James
 """
+names = ["Dave", "Sue", "James"]
+names.append ("bill")
+print len(names)
+    for x in names
+            return "%s hello" % (Dave,Sue, James, bill)
+print names ("hello") 
+

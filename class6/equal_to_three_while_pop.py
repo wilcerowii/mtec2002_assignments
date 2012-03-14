@@ -17,9 +17,9 @@ Three letter words: ['cat', 'dog']
 
 animals = ["dog", "zebra", "giraffe", "elephant", "cat", "lion", "bear"]
 three_letter_words = []
-while three_letter_words len(animals)
-        if len(animals[three_letter_words])== 3:
-            three_letter_words.append(animals[three_letter_words
-pop ()
-print "animals %s" % (animals)
-print "three_letter_words %s" % (three_letter_words)
+while animals:
+        a = animals.pop()
+        if len(a) == 3:
+        three_letter_words.append(a)
+print three_letter_words
+

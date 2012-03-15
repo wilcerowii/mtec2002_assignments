@@ -21,13 +21,13 @@ Example Output:
 {'eve': 23, 'sam': 39}
 """
 # create an empty dictionary named scores (#1)
-
+scores = {}
 # add a key called "bob" to it, and set it equal to 21 (#4)
-
+bob = 21
 # add a key called "sally" to it, and set it equal to 35 (#4)
-
+sally = 35
 # print the value at the key named sally (#3)
-
+print sally
 # use the get method to retrieve the value for a non-existent key named alice, default it to 0 (#5); assign to a variable named alice_score
 
 # print out alice_score

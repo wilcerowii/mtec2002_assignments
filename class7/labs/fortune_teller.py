@@ -1,7 +1,8 @@
 """
-fortune_teller.py
+fortune_teller.:
 ===
-1. Create a list of fortunes: 'you will write a program', 'you have a lot of tabs in your future', 'boo!' and store it in a variable called fortunes
+1. Create a list of fortunes: 'you will write a program', 'you have a lot of tabs in your future', 'boo!' and store 
+it in a variable called fortunes
 2. Use random to print out a random fortune when you run the program
 3. Run the program several times
 
@@ -14,3 +15,7 @@ you have a lot of tabs in your future
 $ python fortune_teller.py 
 you have a lot of tabs in your future
 """
+import random
+fortunes = ["you will write a program", "you have a lot of tabs in your future", "boo!"]
+index = random.randint(0,2)
+print "%s, %s" % (index,fortunes[index]) 

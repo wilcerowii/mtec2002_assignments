@@ -1,14 +1,16 @@
 """
 guess_number_or_quit.py
 ===
-Revisit the guess number exercise from class 2.  Write a program that stores a secret number in a variable and asks the user to guess the secret number.  
+Revisit the guess number exercise from class 2.  Write a program that stores
+a secret number in a variable and asks the user to guess the secret number.  
 
 * Create a variable named secret_number; set it equal to some number...
 * Create a while loop that will loop forever.
 * In the while loop...
 * Ask the user to enter a number; store it in a variable named user_input.  
 * If the number entered is the same as the secret number, print out "You got it!".  
-* If the number entered is not equal to the secret number, print out "Nope.  Try again.", and continue asking the user to enter another number.
+* If the number entered is not equal to the secret number, print out "Nope. 
+Try again.", and continue asking the user to enter another number.
 * If the user enters the word "quit", the program will exit.
 
 Hints:
@@ -31,3 +33,14 @@ Guess the number I'm thinking of...
 > quit
 Bye!
 """
+
+quess_number = 24 
+while true
+	print "please enter a number"
+	user_input = raw_input("> ")
+	if user_input =="quit"
+	if secret_number == user_input:
+			print "you got it "
+			exit() 
+	
+	

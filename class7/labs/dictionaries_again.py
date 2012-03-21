@@ -31,15 +31,15 @@ sally = 35
 print sally
 # use the get method to retrieve the value for a non-existent key named alice, default it to 0 
 (#5); assign to a variable named alice_score
-name.get("alice", "0")
+person.get("alice", "0")
 # print out alice_score
 print alice_score
 # print out all of the keys in the dictionary (#6)
-my_keys = name.keys()
+my_keys = person.keys()
 # print out all of the values in the dictionary (#7)
-my_values = name.values
+my_values = person.values
 # print out all of the key/value pairs in the dictionary as a list of tuples (#8)
-tuples = name.items()
+tuples = person.items()
 # create a dictionary called more_scores, this time with the following key/value pairs... "eve" - 23, "sam" - 39 (#2)
 more_scores = {"girl_name" : "eve" - 23, "guy name" : "sam" - 39
 # print out more_scores

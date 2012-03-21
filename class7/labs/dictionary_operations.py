@@ -60,7 +60,7 @@ my_values = person.values
 # print out the values
 print values 
 # get all of the key, value pairs of your dictionary as a list of tuples using the items method; set it to a variable called tuples
-tuples = perosn.items()
+tuples = person.items()
 # print out this list
 print tuples
 # create a new key called hours_of_sleep by using the new key and setting it equal to a value

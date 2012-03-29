@@ -1,6 +1,6 @@
 import random
 Name = raw_input ("Enter Name here: ") 
-print "Hello " + Name + "! I am a python script specially designed for a game called rock paper scissors!"
+print "Hello " + Name + "this is a game test yout skills"
 answer = raw_input ("Do you want to play? : ")
 if answer == ("yes"):
     print "Okay! Lets play!"

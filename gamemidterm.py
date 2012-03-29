@@ -1,36 +1,40 @@
 import random
+scores = {'player':0,'computer':0}
 Name = raw_input ("Enter Name here: ") 
 print "Hello " + Name + "this is a game test yout skills"
 answer = raw_input ("Do you want to play? : ")
 if answer == ("yes"):
     print "Okay! Lets play!"
     PC = raw_input ("Choose rock,paper or scissors: ")
-    rand = random.randint(1, 3) #1 means rock,2 means paper,3 means scissors	  
+    player = random.randint(1, 3) #1 means rock,2 means paper,3 means scissors	  
 
     if PC == ("rock"):
-        if rand == (1):
+        if player== (1):
             print "Tie game!"
-        elif rand == 2:
+        elif player == 2:
             print "you lost!"
-        elif rand == 3:
+        elif player == 3:
             print "you Win!"
     if PC == ("paper"):
-        if rand == 2:
+        if player == 2:
             print "Tie game!"
-        elif rand == 3:
+        elif player == 3:
             print "you lost!"
-        elif rand == 1:
+        elif player == 1:
             print "you Win!"
     if PC == ("scissors"):
-        if rand == 3:
+        if player == 3:
             print "Tie game!"
-        elif rand == 1:
+        elif player == 1:
             print "yoou lost!"
-        elif rand == 2:
+        elif player == 2:
             print "you Win!"
 else :
     print "aww!"
-"""else (quit)
+    
+elif command == "quit":
+exit()
+"""
 
 
 

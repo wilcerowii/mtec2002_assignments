@@ -11,23 +11,23 @@ if answer == ("yes"):
         if rand == (1):
             print "Tie game!"
         elif rand == 2:
-            print "Game lost!"
+            print "you lost!"
         elif rand == 3:
-            print "Game Win!"
+            print "you Win!"
     if PC == ("paper"):
         if rand == 2:
             print "Tie game!"
         elif rand == 3:
-            print "Game lost!"
+            print "you lost!"
         elif rand == 1:
-            print "Game Win!"
+            print "you Win!"
     if PC == ("scissors"):
         if rand == 3:
             print "Tie game!"
         elif rand == 1:
-            print "Game lost!"
+            print "yoou lost!"
         elif rand == 2:
-            print "Game Win!"
+            print "you Win!"
 else :
     print "aww!"
 """else (quit)

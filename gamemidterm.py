@@ -29,8 +29,6 @@ if answer == ("yes"):
             print "yoou lost!"
         elif player == 2:
             print "you Win!"
-else :
-    print "aww!"
     
 elif command == "quit":
 exit()

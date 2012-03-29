@@ -5,7 +5,7 @@ answer = raw_input ("Do you want to play? : ")
 if answer == ("yes"):
     print "Okay! Lets play!"
     PC = raw_input ("Choose rock,paper or scissors: ")
-    rand = random.randint(1, 3) #1 means rock	  
+    rand = random.randint(1, 3) #1 means rock,2 means paper,3 means scissors	  
 
     if PC == ("rock"):
         if rand == (1):

@@ -31,8 +31,7 @@ Name = raw_input ("Enter Name here: ")
 print "Hello " + Name + "this is a game test yout skills"
 answer = raw_input ("Do you want to play? : ")
 if answer == ("yes"):
-    print "Okay! Lets play!"
-    print "choose?"
+    print "Okay choose?"
     PC = raw_input ("Choose rock,paper or scissors: ")
     player = random.randint(1, 3) #1 means rock,2 means paper,3 means scissors	  
 
